@@ -5,6 +5,7 @@ return {
 		local lint = require("lint")
 
 		lint.linters_by_ft = {
+			-- Only add linters here that are not covered by null-ls
 			javascript = { "eslint_d" },
 			typescript = { "eslint_d" },
 			javascriptreact = { "eslint_d" },
